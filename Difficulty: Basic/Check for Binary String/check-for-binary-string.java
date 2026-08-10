@@ -2,8 +2,8 @@ class Solution {
     public boolean isBinary(String s) {
         // code here
         for (int i = 0; i < s.length(); i++) {
-            char chk = s.charAt(i);
-            if (chk != '0' && chk != '1') {
+            char ch = s.charAt(i);
+            if (ch != '0' && ch != '1') {
                 return false;
             }
         }
